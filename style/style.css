@@ -1,4 +1,32 @@
-footer {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin-left: 3em;
+:root {
+  --main-color: green; /* coleurs à changer quand les couleurs du sites sont définis */
+  --secondary-color: orange;
+}
+
+/*****************************************/
+/**********CSS GENERAL********************/
+
+body {
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+/*****************************/
+/***CSS Section nos valeurs***/
+
+.nos-valeurs {
+  display: flex;
+}
+
+.nos-valeurs:nth-child(n) {
+  margin: 10px;
+}
+
+.nos-valeur-img {
+  padding: 20px;
+}
+
+.nos-valeur-img img {
+  max-width: 100%;
+  height: auto;
 }
