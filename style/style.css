@@ -21,14 +21,19 @@ body {
 /**************/
 
 footer {
-  background-color: var(--dark-color);
-  color: var(--light-color);
+  color: white;
   padding-left: 140px;
   padding-right: 140px;
+  background-color: var(--dark-color);
+  border-top: transparent 2px solid;
 }
 
-footer a {
-  color: var(--light-color);
+.mentions-légales a,
+.vppc a {
+  border-bottom: 1px solid var(--main-color);
+  padding: 5px 0px;
+  margin: 5px 0px;
+  color: white;
 }
 
 .footer {
@@ -144,4 +149,20 @@ h1 {
   .cardsbio {
     padding: 20px;
   }
+}
+
+/**************************/
+/*Paragraphe de Nos valeur*/
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.Pnovaleur {
+  margin: 20px 140px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 40%;
+  background-color: white;
 }
