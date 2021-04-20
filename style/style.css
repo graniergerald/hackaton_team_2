@@ -1,32 +1,100 @@
 :root {
-  --main-color: green; /* coleurs à changer quand les couleurs du sites sont définis */
+  --main-color: green; /* couleurs à changer quand les couleurs du sites sont définis */
   --secondary-color: orange;
+  --dark-color: rgba(37, 37, 37, 0.863);
+  --light-color: rgb(255, 255, 255);
 }
 
 /*****************************************/
 /**********CSS GENERAL********************/
 
-body {
-  padding-left: 75px;
-  padding-right: 75px;
+/* .btn-primary {
+  Propriétés générales à faire pour appeler la classe sur chaque bouton du site ou presque, à voir
+} */
+
+/****FOOTER****/
+/**************/
+
+footer {
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  padding-left: 140px;
+  padding-right: 140px;
 }
 
-/*****************************/
-/***CSS Section nos valeurs***/
+footer a {
+  color: var(--light-color);
+}
 
-.nos-valeurs {
+.footer {
   display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  line-height: 25px;
 }
 
-.nos-valeurs:nth-child(n) {
-  margin: 10px;
+.footer ul {
+  padding: 0px;
 }
 
-.nos-valeur-img {
-  padding: 20px;
+.footer .logos {
+  display: flex;
+  padding: 0px;
+  justify-content: space-between;
+  width: 200px;
 }
 
-.nos-valeur-img img {
-  max-width: 100%;
-  height: auto;
+.footer i {
+  font-size: 50px;
+}
+
+.fa-facebook-square {
+  color: rgb(58, 87, 149);
+}
+
+.fa-twitter-square {
+  color: rgb(28, 156, 235);
+}
+
+/**********************/
+/*FOOTER media queries*/
+/**********************/
+
+@media screen and (min-width: 710px) and (max-width: 920px) {
+  .mentions-légales li ul:nth-child(4) {
+    width: 70px;
+  }
+
+  .mentions-légales {
+    padding-right: 20px;
+  }
+
+  .Réseaux-sociaux {
+    padding-left: 60px;
+  }
+  footer {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mentions-légales,
+  .vppc {
+    width: 175px;
+    margin-left: 75px;
+  }
+
+  .mentions-légales li ul:nth-child(4) {
+    width: 70px;
+  }
+
+  .Réseaux-sociaux {
+    text-align: center;
+  }
 }
