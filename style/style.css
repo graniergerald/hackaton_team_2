@@ -1,12 +1,17 @@
 :root {
-  --main-color: green; /* couleurs à changer quand les couleurs du sites sont définis */
   --secondary-color: orange;
+  --main-color: #a5ce8d; /* couleur à changer quand les couleurs du sites sont définis */
   --dark-color: rgba(37, 37, 37, 0.863);
-  --light-color: rgb(255, 255, 255);
+  --light-color: #f5f3f0;
 }
 
 /*****************************************/
 /**********CSS GENERAL********************/
+
+body {
+  background-color: var(--light-color);
+  font-family: "Quicksand", sans-serif;
+}
 
 /* .btn-primary {
   Propriétés générales à faire pour appeler la classe sur chaque bouton du site ou presque, à voir
@@ -96,5 +101,47 @@ footer a {
 
   .Réseaux-sociaux {
     text-align: center;
+  }
+}
+
+/************************************/
+/*Page nos Valeurs Section c'est bio*/
+/************************************/
+
+.nos_valeursbio {
+  padding-right: 140px;
+  padding-left: 140px;
+}
+
+.nos_valeursbio h3,
+h1 {
+  text-align: center;
+}
+
+.containerbio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 50px 0px;
+}
+
+.cardsbio {
+  justify-content: center;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.imgbio img {
+  height: auto;
+  width: 250px;
+}
+
+@media screen and (max-width: 1115px) {
+  .containerbio {
+    justify-content: center;
+  }
+
+  .cardsbio {
+    padding: 20px;
   }
 }
