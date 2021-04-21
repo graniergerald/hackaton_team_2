@@ -1,21 +1,17 @@
 :root {
-  --secondary-color: orange;
-  --main-color: #a5ce8d; /* couleur à changer quand les couleurs du sites sont définis */
-  --dark-color: rgba(37, 37, 37, 0.863);
-  --light-color: #f5f3f0;
+  --main-color: #a5ce8d;
+  --dark-color: rgba(37, 37, 37, 0.863); /* color footer */
+  --bckg-color-page: #f5f3f0;
+  --bckg-color-element: white;
 }
 
 /*****************************************/
 /**********CSS GENERAL********************/
 
 body {
-  background-color: var(--light-color);
+  background-color: var(--bckg-color-page);
   font-family: "Quicksand", sans-serif;
 }
-
-/* .btn-primary {
-  Propriétés générales à faire pour appeler la classe sur chaque bouton du site ou presque, à voir
-} */
 
 /****FOOTER****/
 /**************/
@@ -109,6 +105,63 @@ footer {
   }
 }
 
+/************************************************************/
+/**************************AUTRES PAGE***********************/
+/************************************************************/
+
+/**********************/
+/*Page mention légales*/
+/**********************/
+
+.pmentions-légales {
+  padding-right: 140px;
+  padding-left: 140px;
+  padding-bottom: 50px;
+}
+
+@media screen and (max-width: 950px) {
+  .pmentions-légales {
+    padding-right: 110px;
+    padding-left: 110px;
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .pmentions-légales {
+    padding-right: 70px;
+    padding-left: 70px;
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .pmentions-légales {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+}
+
+/*************************************/
+/**********Page nos valeurs***********/
+/*************************************/
+
+/**************************/
+/*Paragraphe de Nos valeur*/
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.Pnovaleur {
+  margin: 20px 140px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 40%;
+  background-color: white;
+}
+
 /************************************/
 /*Page nos Valeurs Section c'est bio*/
 /************************************/
@@ -149,20 +202,4 @@ h1 {
   .cardsbio {
     padding: 20px;
   }
-}
-
-/**************************/
-/*Paragraphe de Nos valeur*/
-.container {
-  display: flex;
-  justify-content: center;
-}
-
-.Pnovaleur {
-  margin: 20px 140px;
-  padding: 20px;
-  border: 1px solid black;
-  border-radius: 20px;
-  width: 40%;
-  background-color: white;
 }
