@@ -16,6 +16,7 @@ body{
 }
 
 /** SECTION I**/
+
 .part_1{
   display: flex;
   flex-direction: row-reverse;
@@ -92,7 +93,7 @@ body{
   margin-right: auto;
 }
 
-h1{
+.all{
   margin-top: 40px;
   color: black;
   text-decoration: underline;
@@ -156,6 +157,7 @@ h1{
 
 
 /** SECTION III**/
+
 .part_3{
   display: flex;
   flex-direction: row;
@@ -211,7 +213,7 @@ h1{
   transform: perspective(1px) translateZ(0);
   transition-property: color;
   transition-duration: 0.4s;
-} 
+}  
 
 
 
