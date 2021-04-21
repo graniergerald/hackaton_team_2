@@ -5,8 +5,14 @@
   --bckg-color-element: white;
 }
 
-/*****************************************/
-/**********CSS GENERAL********************/
+@font-face {
+  font-family: "AbrilFatface-Regular";
+  src: url("../fonts/Abril_Fatface/AbrilFatface-Regular.ttf") format("truetype");
+}
+
+/****************************************/
+/**********CSS GENERAL*******************/
+/****************************************/
 
 body {
   background-color: var(--bckg-color-page);
@@ -158,8 +164,9 @@ footer {
   padding: 20px;
   border: 1px solid black;
   border-radius: 20px;
-  width: 40%;
   background-color: white;
+  width: 300px;
+  height: 300px;
 }
 
 /************************************/
