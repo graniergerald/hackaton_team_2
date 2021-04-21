@@ -15,8 +15,11 @@
 /****************************************/
 
 body {
-  background-color: var(--bckg-color-page);
+  background-color: var(--light-color);
   font-family: "Quicksand", sans-serif;
+  margin-right: 140px;
+  margin-left: 140px;
+  color: black;
 }
 
 /****FOOTER****/
