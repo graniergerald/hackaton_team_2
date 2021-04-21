@@ -11,6 +11,9 @@
 body {
   background-color: var(--light-color);
   font-family: "Quicksand", sans-serif;
+  margin-right: 140px;
+  margin-left: 140px;
+  color: black;
 }
 
 /****FOOTER****/
@@ -19,8 +22,10 @@ body {
 footer {
   background-color: var(--dark-color);
   color: var(--light-color);
-  padding-left: 140px;
+  margin-right: -140px;
+  margin-left: -140px;
   padding-right: 140px;
+  padding-left: 140px;
 }
 
 footer a {
@@ -91,10 +96,6 @@ footer a {
     margin-left: 75px;
   }
 
-  .mentions-légales li ul:nth-child(4) {
-    width: 70px;
-  }
-
   .Réseaux-sociaux {
     text-align: center;
   }
@@ -109,16 +110,15 @@ footer a {
 /**********************/
 
 .pmentions-légales {
-  padding-right: 140px;
-  padding-left: 140px;
   padding-bottom: 50px;
 }
 
 @media screen and (max-width: 680px) {
   .pmentions-légales {
-    padding-right: 70px;
-    padding-left: 70px;
+    margin-right: -70px;
+    margin-left: -70px;
     padding-bottom: 50px;
+    text-align: justify;
   }
 }
 
