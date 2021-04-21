@@ -210,10 +210,10 @@ a:hover {
 
 .logo > p {
   font-size: 15px;
-  font-weight: 100;
-  color: #3e4651;
-  margin: 2vw;
-  letter-spacing: 2px;
+  font-weight:300;
+  color:#3e4651;
+  margin:2vw;
+  letter-spacing:2px;
 }
 
 .logo {
@@ -243,14 +243,17 @@ a:hover {
 .centred {
   display: flex;
   justify-content: space-around;
-  height: 50vh;
+
 }
 
 .login>img {
+  position:relative;
+  top:10px;
   margin-top: 30vh;
   margin-bottom: 3vh;
-  width:170px;
-  height:170px;
+  width:100px;
+  height:100px;
+  
 }
 
 .login>h2 {
@@ -266,6 +269,7 @@ a:hover {
   color: #3e4651;
   margin: 2vw;
   letter-spacing: 2px;
+  padding-top: 40px;
 }
 
 .login {
