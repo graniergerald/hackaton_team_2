@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+}
+
+#bg_image{
+    width: 100%;
+    background-image: url("/img/Nos_produits/NOS_PRODUITS_NAV.jpg");
+    height: 100px;
+}
+
+
+/**===== Header =====**/
+header h1#special{
+    color: azure;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+/**===== la vie du produit =====**/
+
+
+
+
+
+
+
+
+/**===== les plus achetés =====**/
+
+
+
+
+
+
+
+
+/**===== idees recettes =====**/

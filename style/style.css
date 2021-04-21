@@ -26,10 +26,12 @@ body {
 /**************/
 
 footer {
-  color: white;
-  padding-left: 140px;
-  padding-right: 140px;
   background-color: var(--dark-color);
+  color: var(--light-color);
+  margin-right: -140px;
+  margin-left: -140px;
+  padding-right: 140px;
+  padding-left: 140px;
   border-top: transparent 2px solid;
 }
 
@@ -105,10 +107,6 @@ footer {
     margin-left: 75px;
   }
 
-  .mentions-légales li ul:nth-child(4) {
-    width: 70px;
-  }
-
   .Réseaux-sociaux {
     text-align: center;
   }
@@ -123,8 +121,6 @@ footer {
 /**********************/
 
 .pmentions-légales {
-  padding-right: 140px;
-  padding-left: 140px;
   padding-bottom: 50px;
 }
 
@@ -138,8 +134,9 @@ footer {
 
 @media screen and (max-width: 680px) {
   .pmentions-légales {
-    padding-right: 70px;
-    padding-left: 70px;
+    margin-right: -70px;
+    margin-left: -70px;
+    padding-bottom: 50px;
     text-align: justify;
   }
 }
@@ -177,8 +174,6 @@ footer {
 /************************************/
 
 .nos_valeursbio {
-  padding-right: 140px;
-  padding-left: 140px;
 }
 
 .nos_valeursbio h3,
