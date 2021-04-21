@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+/**** CSS ****/
+
+/**** MARGE ****/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/**** BODY ****/
+body {
+  width: 100%;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: "Quicksand", sans-serif;
+  background-color: #f5f3f0;
+}
+
+/**** MAIN ****/
+main {
+  width: 80%;
+  margin: auto;
+}
+
+#global {
+  width: 80%;
+  margin: auto;
+  padding: 25px;
+  background: #f5f3f0;
+}
+
+/**** HEADER ****/
+header {
+  width: 100%;
+}
+
+.header {
+  line-height: 15vh;
+  background-color: #f5f3f0;
+  margin: 0;
+  padding: 0;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.header-menu {
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-family: "quicksand";
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+/**** SLIDER  ****/
+
+#menu-gauche {
+  width: 20%;
+  float: left;
+}
+
+#contenu {
+  width: 60%;
+  float: left;
+}
+
+#sidebar-droite {
+  width: 20%;
+  float: left;
+}
+
+/**** LOGO SUR LE SLIDER ****/
+.picture {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 70vh;
+}
+
+/*** BOUTON SUR LE SLIDER ****/
+.btn {
+  font-size: 20px;
+  color: #f5f3f0;
+  text-decoration: none;
+}
+
+.btn {
+  color:#f5f3f0; 
+}
+
+.btn-default {
+    display:flex;
+    justify-content:center;
+    position:absolute;
+}
+
+/*** ELEPMENTS DU SLIDER ****/
+.caption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 70px;
+  -webkit-border-radius: 70px;
+  -moz-border-radius: 70px;
+  -ms-border-radius: 70px;
+  -o-border-radius: 70px;
+  height: 8vh;
+  width: 14vw;
+  border-width: 3px;
+  border-style: dotted;
+  border-color: #f5f3f0; 
+}
+
+.caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.caption {
+  display: flex;
+  margin-top: 25vh;
+}
+
+/**** NAVIGATION DU SLIDER ****/
+.diapo {
+  position: relative;
+  overflow: hidden;
+}
+
+#nav-droite,
+#nav-gauche {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #f5f3f0;
+  font-size: 3em;
+}
+
+#nav-droite {
+  right: 40px;
+  color: #f5f3f0;
+}
+#nav-gauche {
+  left: 40px;
+  color: #f5f3f0;
+}
+
+.elements {
+  display: flex;
+  transition: 1s linear;
+}
+
+.element {
+  flex: 1 0 100%;
+  position: relative;
+}
+
+.element > img {
+  width: 100%;
+}
+
+/**** LIENS ****/
+a:hover {
+  color: #1c1c1c;
+  z-index: index 7;
+}
+
+/**** DIV AVEC LES PICTOS ACHEMINEMENT... ****/
+.header-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.picto {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.centre {
+  display: flex;
+  justify-content: space-around;
+  height: 50vh;
+}
+
+.logo > img {
+  margin-top: 30vh;
+  margin-bottom: 3vh;
+  width:170px;
+  height:170px;
+}
+
+.logo > h2 {
+  font-size: 20px;
+  margin-bottom: 3vh;
+  color: #474548;
+  font-weight: bold;
+}
+
+.logo > p {
+  font-size: 15px;
+  font-weight: 100;
+  color: #3e4651;
+  margin: 2vw;
+  letter-spacing: 2px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 20vw;
+  height: 25vh;
+  padding-top: 30px;
+  padding:40px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+
+
+
+.circle {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.centred {
+  display: flex;
+  justify-content: space-around;
+  height: 50vh;
+}
+
+.login>img {
+  margin-top: 30vh;
+  margin-bottom: 3vh;
+  width:170px;
+  height:170px;
+}
+
+.login>h2 {
+  font-size: 20px;
+  margin-bottom: 3vh;
+  color: #474548;
+  font-weight: bold;
+}
+
+.login>p {
+  font-size: 15px;
+  font-weight: 100;
+  color: #3e4651;
+  margin: 2vw;
+  letter-spacing: 2px;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 20vw;
+  height: 20vh;
+  padding: 40px;
+}
+
+/**** RESPONSIVE TABLETTE ENTRE 763PX ET 1338PX ****/
+@media (min-width: 768px) and (max-width: 1388px) {
+  .header-menu {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+  .header-menu {
+    width: 100%;
+    float: none;
+  }
+
+  .section-picto {
+    float: none;
+  }
+
+  .logo > p {
+    font-size: 15px;
+    font-weight: 100;
+    color: #3e4651;
+    margin: 2vw;
+    letter-spacing: 2px;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20.1vw;
+    height: 34.2vh;
+    padding-top: 30px;
+  }
+}
