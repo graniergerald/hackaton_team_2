@@ -49,8 +49,7 @@ header h1#special{
 /**===== la vie du produit =====**/
 .box-icons{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap ;
+    flex-flow: row wrap;
     justify-content:center;
     align-items: center;
     height: auto;

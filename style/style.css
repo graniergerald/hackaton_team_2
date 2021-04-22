@@ -16,7 +16,9 @@ body{
   color: black;
 }
 
-a.bnt-box{
+h2{font-size: 1.8em;}
+
+.Content_1 .bnt-box{
   display: flex;
   justify-content: center;
   justify-items: center;
@@ -32,7 +34,7 @@ a.bnt-box{
 
 }
 
-a.bnt-box:hover {
+.content_1 .bnt-box:hover {
   background-color: #A5CE8D;
   color: whitesmoke;
   cursor: pointer;
@@ -95,7 +97,7 @@ a.bnt-box:hover {
   /* width: 100%; */
   height: auto;
   /* margin-left: 70px; */
-  margin-right: 70px;
+  margin: auto;
 }
 
 .global-title{
@@ -103,20 +105,20 @@ a.bnt-box:hover {
   color: black;
   text-decoration: underline;
   text-align: left;
+  margin-left: 10%;
 }
 
 .all{
   width: 200px;
-  font-size: 18px;
   color: black;
   text-decoration: underline;
   text-align: left;
 }
 
 .column {
-  /* float: left; */
-  display: block;
-  width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 200px;
   margin: 15px;
 }
 
@@ -144,6 +146,8 @@ a.bnt-box:hover {
   background-color: white;
   padding: 10px;
   align-items: center;
+  min-height: 350px;
+  min-width: 200px;
 }
 
 .btn-prime {
@@ -179,6 +183,39 @@ a.bnt-box:hover {
   color: whitesmoke;
   cursor: pointer;
 }  
+
+.bnt-box{
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  padding: 10px 15px;
+  border: 1px solid #A5CE8D;
+  border-radius: 25px;
+  color: #A5CE8D;
+  font-weight: 400;
+}
+
+.btn-box{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  height: 40px;
+  max-width: 100px;
+  border: 1px solid #A5CE8D;
+  border-radius: 25px;
+  color: #A5CE8D;
+  font-weight: 400;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+
+ .btn-box:hover {
+  background-color: #A5CE8D;
+  color: whitesmoke;
+  cursor: pointer;
+} 
 
 /** SECTION III**/
 
@@ -222,6 +259,13 @@ a.bnt-box:hover {
     display: flex;
     flex-wrap: wrap;
   }
+
+  /* .column {
+    min-width: 200p;
+    display: flex;
+    margin-bottom: 20px;
+
+  }x */
 }
 
 
@@ -231,21 +275,18 @@ a.bnt-box:hover {
     flex-wrap:nowrap;
   }
 
-  /* .column {
+  .column {
       width: 40%;
-      display: block;
       margin-bottom: 20px;
-    } */
+    }
   
-
-
   .card {
      width: 100%;
   }
 }
 
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 800px) {
   .column {
      width: 25%;
   }
