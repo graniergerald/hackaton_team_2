@@ -49,8 +49,9 @@ header h1#special{
 /**===== la vie du produit =====**/
 .box-icons{
     display: flex;
-    flex-flow: row wrap;
-    justify-contents:center;
+    flex-direction: row;
+    flex-wrap: wrap ;
+    justify-content:center;
     align-items: center;
     height: auto;
 }
@@ -68,34 +69,21 @@ header h1#special{
 }
 
 .global{
-    /* display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center; */
     height: auto;
     margin-left: 140px;
     margin-right: 140px;
   }
   
   .global > div{
-    /* flex: 0 0 25%; */
     padding: 20px 0px;
   }
-
-  /* .row{
-    display:inline-block;
-    margin-left: auto;
-    margin-right: auto;
-  } */
   
   .row{
-    /* display:inline-block; */
     margin-left: auto;
     margin-right: auto;
   }
 
   .column {
-    /* float: left; */
     position: relative;
     width: 25%;
     margin: 15px;
@@ -114,31 +102,15 @@ header h1#special{
     width: 85%;
 }
 
-  
-  /* .contents_column:after {
-    contents: "";
-    display: table;
-    clear: both;
-  } */
-  
-  .contents {
-    /* width: 164vw;
-    height: 220vh; */
+  .content {
     padding: 10px 0 70px;
     height: 100%;
-    /* align-items: center; */
   
   }
-  .btn-prime {
-      position: absolute;
-      bottom: 15px;
-      left: 50%;
-      transform: translateX(-50%);
-      padding: 10px 25px;
-  }
+
   .column .btn-global{
     display: flex;
-    justify-contents: center;
+    justify-content: center;
     justify-items: center;
     align-items: center;
     height: 40px;
@@ -153,9 +125,18 @@ header h1#special{
 
 
 
-/**===== idees recettes =====**/
+/** ================ Recettes ================= **/
+ul.ingredient-list{
+    list-style: circle;
+}
 
-.recipe-card {
+.divImg{
+    background-image: url("./img/Recettes/Quiche\ Saumon\ Brocolis.jpg");
+    width: 50vw;
+}
+
+
+/* .recipe-card {
   width: 90%;
   display: block;
   overflow: hidden;
@@ -248,7 +229,7 @@ header h1#special{
   line-height: 1.5em;
   list-style: circle;
   margin-right: 1em;
-}
+} */
 
 hr.line{
     border: 2px solid black;

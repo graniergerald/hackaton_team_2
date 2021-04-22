@@ -16,12 +16,33 @@ body{
   color: black;
 }
 
+a.bnt-box{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  height: 40px;
+  max-width: 150px;
+  border: 1px solid #A5CE8D;
+  border-radius: 25px;
+  color: #A5CE8D;
+  font-weight: 400;
+  margin-top: 13px;
+  margin-left: 15px;
+
+}
+
+a.bnt-box:hover {
+  background-color: #A5CE8D;
+  color: whitesmoke;
+  cursor: pointer;
+}  
+
+
 /** SECTION I**/
 .box_1{
   width: 90%;
-  height: 430px;
   margin-top: 40px;
-  margin-bottom: 30px;
 }
 
 .part_1{
@@ -47,52 +68,41 @@ body{
   font-size: 15px;
 }
 
-.content_1 .btn-prime{
+.content_1 .bnt-box{
   display: flex;
   justify-content: center;
   justify-items: center;
   align-items: center;
-  /* height: 40px;
-  max-width: 150px; */
   border: 1px solid #A5CE8D;
   border-radius: 25px;
   color: #A5CE8D;
-  /* font-weight: 400;
-  margin-top: 13px;
-  margin-left: 15px; */
 
 }
 
-.content_1 .btn-prime:hover {
+.content_1 .bnt-box:hover {
   background-color: #A5CE8D;
   color: whitesmoke;
   cursor: pointer;
-  transform: perspective(1px) translateZ(0);
-  transition-property: color;
-  transition-duration: 0.4s;
-}   
-
+}
 
 /** SECTION II**/
 
 .global{
-  /* display: block; */
-  display: flex;
+  /* display: flex; */
   flex-direction: row-reverse ;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  /* width: 100%; */
   height: auto;
-  margin-left: 70px;
+  /* margin-left: 70px; */
   margin-right: 70px;
 }
 
 .global-title{
+  margin-top: 30px;
   color: black;
   text-decoration: underline;
   text-align: left;
-  /* margin-left: 20px;
-  margin-left: 20px; */
 }
 
 .all{
@@ -134,10 +144,21 @@ body{
   background-color: white;
   padding: 10px;
   align-items: center;
-
 }
 
-.column .btn-prime{
+.btn-prime {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 15px;
+  border: 1px solid #A5CE8D;
+  border-radius: 25px;
+  color: #A5CE8D;
+  font-weight: 400;
+}
+
+ .btn-prime{
   display: flex;
   justify-content: center;
   justify-items: center;
@@ -153,14 +174,11 @@ body{
   margin-bottom: 15px;
 }
 
-.column .btn-prime:hover {
+ .btn-prime:hover {
   background-color: #A5CE8D;
   color: whitesmoke;
   cursor: pointer;
-  transform: perspective(1px) translateZ(0);
-  transition-property: color;
-  transition-duration: 0.4s;
-} 
+}  
 
 /** SECTION III**/
 
@@ -175,11 +193,6 @@ body{
 }
 
 .part_3 .image_3 {
-  /* float: left;
-  height: 250px;
-  object-fit: cover;
-  margin-bottom: 30px;
-  margin-right: 15px; */
   width: 50vw;
   object-fit: cover;
   margin-right: 15px;
@@ -201,48 +214,8 @@ body{
   margin-left: 20px;
 }
 
-.content_3 .btn-prime{
-  display: flex;
-  justify-content: center;
-  justify-items: center;
-  align-items: center;
-  height: 40px;
-  max-width: 150px;
-  border: 1px solid #A5CE8D;
-  border-radius: 25px;
-  color: #A5CE8D;
-  font-weight: 400;
-  margin-top: 13px;
-  margin-left: 15px;
-
-}
-
-.content_3 .btn-prime:hover {
-  background-color: #A5CE8D;
-  color: whitesmoke;
-  cursor: pointer;
-  transform: perspective(1px) translateZ(0);
-  transition-property: color;
-  transition-duration: 0.4s;
-}  
 
 
-/** ================ Recettes ================= **/
-  ul.ingredient-list{
-    list-style: circle;
-  }
-
-
-
-
-
-
-
-
-
-
-
-  
 /**============= All Queries ===============**/
 @media screen and (max-width: 320px) {
   .part_1, .part_3{
