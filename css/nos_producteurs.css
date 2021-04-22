@@ -282,40 +282,6 @@ a:hover {
   padding: 40px;
 }
 
-/**** RESPONSIVE TABLETTE ENTRE 763PX ET 1338PX ****/
-@media (min-width: 768px) and (max-width: 1388px) {
-  .header-menu {
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-  }
-  .header-menu {
-    width: 100%;
-    float: none;
-  }
-
-  .section-picto {
-    float: none;
-  }
-
-  .logo > p {
-    font-size: 15px;
-    font-weight: 100;
-    color: #3e4651;
-    margin: 2vw;
-    letter-spacing: 2px;
-  }
-
-  .logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 20.1vw;
-    height: 34.2vh;
-    padding-top: 30px;
-  }
-}
 
 /*** CSS DE PAGES (NOS PRODUCTEURS) ****/
 
@@ -336,6 +302,7 @@ a:hover {
   display: inline;
   margin:-10vh ;
   margin-left:15vw;
+  text-decoration: none;
 }
 
 .hackaton img {
@@ -399,3 +366,47 @@ a:hover {
   text-align: center;
   font-weight: bold;
 }
+
+/**** RESPONSIVE TABLETTE ENTRE 763PX ET 1338PX ****/
+@media (min-width: 768px) and (max-width: 1388px) {
+  .header-menu {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+  .header-menu {
+    width: 100%;
+    float: none;
+  }
+
+  .section-picto {
+    float: none;
+  }
+
+  .logo > p {
+    font-size: 15px;
+    font-weight: 100;
+    color: #3e4651;
+    margin: 2vw;
+    letter-spacing: 2px;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20.1vw;
+    height: 34.2vh;
+    padding-top: 30px;
+  }
+}
+
+h1 { 
+  font-size: clamp(30px, 5vw, 50px);
+}
+
+.logo {
+  font-size: clamp(20px, 5vw, 40px);
+}
+

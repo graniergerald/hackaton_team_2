@@ -4,6 +4,7 @@
 <head>
   <meta name="robots" content="noindex, nofollow">
   <meta charset="UTF-8">
+  <meta name="description" content="Burger menu responsive" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>hackaton</title>
   <!-- Fichiers CSS -->
@@ -19,6 +20,29 @@
 
 <body>
 
+  <!-- MON MENU BURGER -->
+
+  <div id="sideNavigation" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">NOS VALEURS</a>
+    <a href="#">NOS PRODUITS</a>
+    <a href="#">NOS VALEURS</a>
+    <a href="#">MON COMPTE</a>
+
+  </div>
+
+  <nav class="topnav">
+    <a href="#" onclick="openNav()">
+      <svg width="30" height="30" id="icoOpen">
+        <path d="M0,5 30,5" stroke="#000" stroke-width="5" />
+        <path d="M0,14 30,14" stroke="#000" stroke-width="5" />
+        <path d="M0,23 30,23" stroke="#000" stroke-width="5" />
+      </svg>
+    </a>
+  </nav>
+
+
+
   <!-- MON MENU -->
 
   <div class="block">
@@ -27,8 +51,7 @@
         <a href="#">NOS VALEURS</a>
         <a href="#">NOS PRODUITS</a>
         <a href="#">NOS PRODUCTEURS</a>
-        <a href="#">NOUS CONTACTER</a>
-        <div>
+        <a href="#">MON COMPTE</a>
       </nav>
       <main>
     </header>

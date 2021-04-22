@@ -9,18 +9,20 @@
 }
 
 /**** BODY ****/
+
 body {
-  width: 100%;
-  margin: 0;
-  overflow-x: hidden;
-  font-family: "Quicksand", sans-serif;
-  background-color: #f5f3f0;
+  width: 100% !important;
+  margin: 0 !important;
+  overflow-x: hidden !important;
+  font-family: "Quicksand", sans-serif !important;
+  background-color: #f5f3f0 !important;
 }
 
 /**** MAIN ****/
+
 main {
-  width: 80%;
-  margin: auto;
+  width: 80% !important;
+  margin: auto !important;
 }
 
 #global {
@@ -58,6 +60,110 @@ header {
   justify-content: space-around;
   text-align: center;
 }
+
+/**** MENU BURGER ****/
+body {
+    width :100% ;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#F5F3F0;
+}
+
+/**** LE CSS DU MENU ET DE LA NAVIGATION A GAUCHE ****/
+
+.sidenav {
+  display: flex;
+  display: inline;
+  float:left;
+  height: 100%;
+  width: 0;
+  position:absolute;
+  z-index: 100;
+  background-color: #F5F3F0;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+/**** LES LIENS DANS LE MENU DE NAVIGATION ****/
+
+.sidenav a {
+  display: flex;
+  display: inline;
+  float:left;
+  padding: 5px 5px 5px 30px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #1c1c1c;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+}
+
+/**** COULEUR DES LIENS AU PASSAGE DE LA SOURIS ****/
+
+.sidenav a:hover,
+.offcanvas a:focus {
+  color: #9EC479;
+}
+
+/**** POSITION DU BOUTON ****/
+
+.sidenav .closebtn {
+  display:flex;
+  position: absolute;
+  top: 0;
+  font-size: 35px;
+  margin-left:15px;
+}
+
+
+/**** POUR QUE LE MENU SE POUSSE VERS LA DROITE ****/
+
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+  overflow: visible;
+  width: 100%;
+}
+
+
+/**** LA COULEUR A LA NAV ****/
+
+.topnav {
+  background-color: #1c1c1c rgb(red, green, blue);
+}
+
+/**** LES LIENS DANS LA NAV ****/
+
+.topnav a {
+  color: #f5f3f0 rgb( 76, 76, 76, 76);
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+/**** JE CHANGE LA COULEUR DES LIENS AU PASSAGE DE LA SOURIS ****/
+
+.topnav a:hover {
+  background-color: #f5f3f0;
+  color: #f5f3f0;
+}
+
+/**** ON  PEUT AJOUTER UNE COULEUR AU LIEN ACTIF ****/
+
+.topnav>a.active {
+  background-color: #1c1c1c;
+  color: #f5f3f0;
+}
+
+/**** RESPONSIVE MENU BURGER ****/
+
 
 /**** SLIDER  ****/
 
@@ -321,6 +427,194 @@ a:hover {
     height: 34.2vh;
     padding-top: 30px;
   }
+}
+
+@media screen and (min-width: 375px) {
+  .main-toggle-img   {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around; 
+  }
+
+  .control h1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: -35vh;
+    margin-top: 25vh;
+}
+
+.control>h1 {
+  color: #f5f3f0;
+  font-size: 60px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-family: 'Abril Fatface';
+}
+ .indian img {
+  display:flex;
+  display:inline-block;
+  justify-content: center;
+}
+
+.producteurs { 
+  font-weight: bold;
+}
+
+.uncunt {
+  text-align: center;
+  font-weight: bold;
+}
+
+.primer { 
+  text-align: center;
+  font-weight: bold;
+} 
+
+.header-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.picto {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.centre {
+  display: flex;
+  justify-content: space-around;
+  height: 50vh;
+}
+
+.logo > img {
+  margin-top: 30vh;
+  margin-bottom: 3vh;
+  width:170px;
+  height:170px;
+}
+
+.logo > h2 {
+  font-size: 20px;
+  margin-bottom: 3vh;
+  color: #474548;
+  font-weight: bold;
+}
+
+.logo > p {
+  font-size: 15px;
+  font-weight:300;
+  color:#3e4651;
+  margin:2vw;
+  letter-spacing:2px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 20vw;
+  height: 25vh;
+  padding-top: 30px;
+  padding:40px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.centred {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.login>img {
+  position:relative;
+  top:10px;
+  margin-top: 30vh;
+  margin-bottom: 3vh;
+  width:100px;
+  height:100px;
+  
+}
+
+.login>h2 {
+  font-size: 20px;
+  margin-bottom: 3vh;
+  color: #474548;
+  font-weight: bold;
+}
+
+.login>p {
+  font-size: 15px;
+  font-weight: 100;
+  color: #3e4651;
+  margin: 2vw;
+  letter-spacing: 2px;
+  padding-top: 40px;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 20vw;
+  height: 20vh;
+  padding: 40px;
+}
+.main-toggle-img   {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around; 
+  }
+
+  .control h1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: -35vh;
+    margin-top: 25vh;
+}
+
+.control>h1 {
+  color: #f5f3f0;
+  font-size: 60px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-family: 'Abril Fatface';
+}
+ .indian img {
+  display:flex;
+  display:inline-block;
+  justify-content: center;
+}
+
+.producteurs { 
+  font-weight: bold;
+}
+
+.uncunt {
+  text-align: center;
+  font-weight: bold;
+}
+
+.primer { 
+  text-align: center;
+  font-weight: bold;
+  } 
 }
 
 /*** CSS DE PAGES (NOS PRODUCTEURS) ****/
