@@ -125,6 +125,11 @@ footer {
 
 .pmentions-légales {
   padding-bottom: 50px;
+  font-size: 20px;
+}
+
+.pmentions-légales a {
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 950px) {
@@ -154,9 +159,9 @@ footer {
 /*************************************/
 /**********Page nos valeurs***********/
 /*************************************/
-
-/********phrasesnosvaleur********/
-/********************************/
+/*************************************/
+/********Phrasesnosvaleur*************/
+/*************************************/
 
 .phrasesnosvaleur {
   display: flex;
@@ -174,7 +179,7 @@ footer {
   text-align: center;
   padding-right: 50px;
   padding-left: 50px;
-  font-size: 19px;
+  font-size: 20px;
 }
 
 @media screen and (max-width: 960px) {
@@ -230,7 +235,7 @@ footer {
   background-color: white;
   width: 300px;
   height: 250px;
-  font-size: 19px;
+  font-size: 20px;
   display: flex;
   text-align: center;
   flex-direction: column;
@@ -425,17 +430,18 @@ textarea {
   .FormContact p textarea {
     width: 290px;
   }
+}
 
-  @media screen and (max-width: 390px) {
-    .Pagenouscontacter {
-      font-size: 12px;
-    }
-  
-    .FormContact {
-      width: 330px;
-    }
-  
-    .FormContact p textarea {
-      width: 230px;
-    }
+@media screen and (max-width: 390px) {
+  .Pagenouscontacter {
+    font-size: 12px;
+  }
+
+  .FormContact {
+    width: 290px;
+  }
+
+  .FormContact p textarea {
+    width: 230px;
+  }
 }
