@@ -7,15 +7,22 @@
 }
 
 body{
-  font-family: Arial, sans-serif;
+  height: 100%;
   background-color: #F5F3F0;
   font-family: 'quicksand';
-  margin-right: 140px;
-  margin-left: 140px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align:center;
   color: black;
 }
 
 /** SECTION I**/
+.box_1{
+  width: 90%;
+  height: 430px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
 
 .part_1{
   display: flex;
@@ -26,23 +33,22 @@ body{
   margin-top: 25px;
 }
 
-.content_1 #image_1 {
-  float: right;
-  width: 850px;
-  height: 400px;
+.part_1 .image_1 {
+  /* float: right; */
+  width: 50vw;
   object-fit: cover;
-  margin-bottom: 30px;
   margin-right: 15px;
 }
 
 .content_1{
-  margin-left:15px;
-  margin-top: 40px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-top: 20px;
   color: rgb(61, 61, 61);
   font-size: 15px;
 }
 
-.content_1 h1{
+.content_1 .all{
   color: black;
   text-decoration: underline;
   margin-left: 20px;
@@ -78,33 +84,35 @@ body{
 /** SECTION II**/
 
 .global{
-  display: block;
+  /* display: block; */
+  display: flex;
   flex-direction: row-reverse ;
   justify-content: center;
   align-items: center;
+  width: 100%;
   height: auto;
-  margin-left: 140px;
-  margin-right: 140px;
+  margin-left: 70px;
+  margin-right: 70px;
 }
 
 .row{
-  display:inline-block;
+  /* display:inline-block; */
   margin-left: auto;
   margin-right: auto;
 }
 
 .all{
-  margin-top: 40px;
+  width: 200px;
+  font-size: 18px;
   color: black;
   text-decoration: underline;
-  margin-left: 20px;
   text-align: left;
-  margin-left: 25px;
 }
 
 .column {
-  float: left;
-  width: 25%;
+  /* float: left; */
+  display: block;
+  width: 200px;
   margin: 15px;
 }
 
@@ -114,7 +122,10 @@ body{
 }
 
 .column_img{
-  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 125px;
 }
 
 .row:after {
@@ -153,8 +164,7 @@ body{
   transform: perspective(1px) translateZ(0);
   transition-property: color;
   transition-duration: 0.4s;
-}
-
+} 
 
 /** SECTION III**/
 
@@ -164,22 +174,23 @@ body{
   justify-content: space-between;
   align-items: center;
   height: auto;
-  padding-left: 140px;
-  padding-right: 140px;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
-.content_3 #image_3 {
-  float: right;
-  width: 850px;
-  height: 400px;
+.part_3 .image_3 {
+  float: left;
+  height: 250px;
   object-fit: cover;
   margin-bottom: 30px;
   margin-right: 15px;
 }
 
 .content_3{
-  margin-left:15px;
-  margin-top: 40px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
   color: rgb(61, 61, 61);
   font-size: 15px;
 }
@@ -215,5 +226,41 @@ body{
   transition-duration: 0.4s;
 }  
 
+
+/**============= All Queries ===============**/
+@media screen and (max-width: 320px) {
+  .part_1, .part_3{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .part_1, .part_3{
+    display: flex;
+    flex-wrap:nowrap;
+  }
+
+  .column {
+      width: 40%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  
+  .card {
+     width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 960px) {
+  .column {
+     width: 25%;
+  }
+
+  
+
+}
 
 
