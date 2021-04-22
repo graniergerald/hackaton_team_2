@@ -234,3 +234,40 @@ h1 {
     padding: 20px;
   }
 }
+
+/**********************************************/
+/*********Phrase + logo nos valeurs************/
+/**********************************************/
+
+.logocoopère {
+  margin-bottom: 60px;
+}
+
+.logocoopère p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.logobio {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.PictoBio {
+  padding: 20px;
+}
+
+@media screen and (max-width: 1095px) {
+  .logocoopère {
+    margin-left: -30px;
+    margin-right: -30px;
+  }
+}
+
+@media screen and (max-width: 852px) {
+  .logocoopère {
+    margin-left: -70px;
+    margin-right: -70px;
+  }
+}
