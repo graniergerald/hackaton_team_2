@@ -15,8 +15,9 @@
 /****************************************/
 
 body {
-  background-color: var(--light-color);
+  background-color: var(--bckg-color-page);
   font-family: "Quicksand", sans-serif;
+  font-weight: lighter;
   margin-right: 140px;
   margin-left: 140px;
   color: black;
@@ -27,7 +28,7 @@ body {
 
 footer {
   background-color: var(--dark-color);
-  color: var(--light-color);
+  color: white;
   margin-right: -140px;
   margin-left: -140px;
   padding-right: 140px;
@@ -99,12 +100,12 @@ footer {
   .footer {
     flex-direction: column;
     align-items: center;
+    text-align: center;
   }
 
   .mentions-légales,
   .vppc {
     width: 175px;
-    margin-left: 75px;
   }
 
   .Réseaux-sociaux {
@@ -156,29 +157,54 @@ footer {
 /*Paragraphe de Nos valeur*/
 .container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
 .Pnovaleur {
-  margin: 20px 140px;
+  margin: 10px;
   padding: 20px;
-  border: 1px solid black;
-  border-radius: 20px;
+  padding-top: 20px;
+  border-radius: 30px;
   background-color: white;
   width: 300px;
-  height: 300px;
+  height: 250px;
+  font-size: 17px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.divpictoPvaleur {
+  margin-top: 55px;
+  justify-content: flex-end;
+}
+
+.divpictoPvaleur img {
+  max-width: 100%;
+  height: 55px;
+}
+
+@media screen and (max-width: 1035px) {
+  .container {
+    margin-left: -130px;
+    margin-right: -130px;
+  }
 }
 
 /************************************/
 /*Page nos Valeurs Section c'est bio*/
 /************************************/
 
-.nos_valeursbio {
-}
-
 .nos_valeursbio h3,
 h1 {
   text-align: center;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+.nos_valeursbio h3 {
+  width: 250px;
 }
 
 .containerbio {
