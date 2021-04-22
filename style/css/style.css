@@ -92,13 +92,13 @@ header {
 }
 
 .btn {
-  color:#f5f3f0; 
+  color: #f5f3f0;
 }
 
 .btn-default {
-    display:flex;
-    justify-content:center;
-    position:absolute;
+  display: flex;
+  justify-content: center;
+  position: absolute;
 }
 
 /*** ELEPMENTS DU SLIDER ****/
@@ -115,7 +115,7 @@ header {
   width: 14vw;
   border-width: 3px;
   border-style: dotted;
-  border-color: #f5f3f0; 
+  border-color: #f5f3f0;
 }
 
 .caption {
@@ -170,17 +170,18 @@ header {
   width: 100%;
 }
 
-/**** LIENS ****/
-a:hover {
+/**** LIENS DU MENU  ****/
+
+
+.header-menu a {
   color: #1c1c1c;
-  z-index: index 7;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+}
+a:hover {
+  color:#9EC479;
 }
 
-/*** H1 SOUS LE MENU ACCUEIL ****/
-
-.paragraph h1 {
-  text-align: center;
-}
 
 /**** DIV AVEC LES PICTOS ACHEMINEMENT... ****/
 .header-logo {
@@ -191,7 +192,7 @@ a:hover {
 .picto {
   display: flex;
   justify-content: center;
-  background-color: #ffffff;
+  background-color: #f5f3f0;
 }
 
 .centre {
@@ -203,8 +204,8 @@ a:hover {
 .logo > img {
   margin-top: 30vh;
   margin-bottom: 3vh;
-  width:170px;
-  height:170px;
+  width: 170px;
+  height: 170px;
 }
 
 .logo > h2 {
@@ -216,10 +217,10 @@ a:hover {
 
 .logo > p {
   font-size: 15px;
-  font-weight:300;
-  color:#3e4651;
-  margin:2vw;
-  letter-spacing:2px;
+  font-weight: 300;
+  color: #3e4651;
+  margin: 2vw;
+  letter-spacing: 2px;
 }
 
 .logo {
@@ -230,7 +231,7 @@ a:hover {
   width: 20vw;
   height: 25vh;
   padding-top: 30px;
-  padding:40px;
+  padding: 40px;
   border-radius: 100px;
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
@@ -238,38 +239,34 @@ a:hover {
   -o-border-radius: 100px;
 }
 
-
-
 .circle {
   display: flex;
   justify-content: center;
-  background-color: #ffffff;
+  background-color: #f5f3f0;
 }
 
 .centred {
   display: flex;
   justify-content: space-around;
-
 }
 
-.login>img {
-  position:relative;
-  top:10px;
+.login > img {
+  position: relative;
+  top: 10px;
   margin-top: 30vh;
   margin-bottom: 3vh;
-  width:100px;
-  height:100px;
-  
+  width: 100px;
+  height: 100px;
 }
 
-.login>h2 {
+.login > h2 {
   font-size: 20px;
   margin-bottom: 3vh;
   color: #474548;
   font-weight: bold;
 }
 
-.login>p {
+.login > p {
   font-size: 15px;
   font-weight: 100;
   color: #3e4651;
@@ -325,7 +322,6 @@ a:hover {
 
 /*** CSS DE PAGES (NOS PRODUCTEURS) ****/
 
-
 /**** menu et logo ****/
 .nav-bar {
   display: flex;
@@ -340,52 +336,18 @@ a:hover {
 
 .nav-bar a {
   display: inline;
-  margin:-10vh ;
-  margin-left:15vw;
+  margin: -10vh;
+  margin-left: 15vw;
 }
 
 .hackaton img {
   display: flex;
-  padding:20px;
+  padding: 20px;
 }
 
-/**** Image d'accueil après menu ****/
-.control-dot img {
-  display: flex;
-  display: inline-block;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
+/*** H1 DE CIRCUIT COURT ****/
 
-
-/**** picto la vie des produits ET LE H1 SUR L'IMAGE ****/
-
-.main-toggle-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-around; 
-}
-
-.control h1 {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    margin-bottom: -35vh;
-    margin-top: 25vh;
-}
-
-.control>h1 {
-  color: #f5f3f0;
-  font-size: 60px;
-  font-weight: bold;
-  letter-spacing: 2px;
-  font-family: 'Abril Fatface';
-}
-
-/**** h1 LA FERME TY COZ ****/
-
-.laferme .oklaoma h1 { 
+.paragraph h1 {
+  font-size: 50px;
   text-align: center;
 }

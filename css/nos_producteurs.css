@@ -176,12 +176,6 @@ a:hover {
   z-index: index 7;
 }
 
-/*** H1 SOUS LE MENU ACCUEIL ****/
-
-.paragraph h1 {
-  text-align: center;
-}
-
 /**** DIV AVEC LES PICTOS ACHEMINEMENT... ****/
 .header-logo {
   display: flex;
@@ -383,9 +377,25 @@ a:hover {
   letter-spacing: 2px;
   font-family: 'Abril Fatface';
 }
+  
+/**** CSS DU LOGO ET DU H1 LA FERME DE TYCOZ ****/
 
-/**** h1 LA FERME TY COZ ****/
+.indian img {
+  display:flex;
+  display:inline-block;
+  justify-content: center;
+}
 
-.laferme .oklaoma h1 { 
+.producteurs { 
+  font-weight: bold;
+}
+
+.uncunt {
   text-align: center;
+  font-weight: bold;
+}
+
+.primer { 
+  text-align: center;
+  font-weight: bold;
 }
