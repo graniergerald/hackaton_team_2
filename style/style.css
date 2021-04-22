@@ -153,6 +153,65 @@ footer {
 /**********Page nos valeurs***********/
 /*************************************/
 
+/********phrasesnosvaleur********/
+/********************************/
+
+.phrasesnosvaleur {
+  display: flex;
+  background-color: var(--bckg-color-element);
+  margin: 40px -140px;
+  padding-right: 140px;
+  padding-left: 140px;
+  justify-content: center;
+  height: 125px;
+  align-items: center;
+}
+
+.phrasesnosvaleur p {
+  width: 900px;
+  text-align: center;
+  padding-right: 50px;
+  padding-left: 50px;
+  font-size: 19px;
+}
+
+@media screen and (max-width: 960px) {
+  .phrasesnosvaleur {
+    padding-right: 110px;
+    padding-left: 110px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .phrasesnosvaleur {
+    padding-right: 80px;
+    padding-left: 80px;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .phrasesnosvaleur {
+    padding-right: 50px;
+    padding-left: 50px;
+    height: 190px;
+  }
+}
+
+@media screen and (max-width: 615px) {
+  .phrasesnosvaleur {
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 230px;
+  }
+
+  .phrasesnosvaleur p {
+    padding-right: 13px;
+    padding-left: 13px;
+    font-size: 17px;
+  }
+}
+
 /**************************/
 /*Paragraphe de Nos valeur*/
 .container {
@@ -169,14 +228,14 @@ footer {
   background-color: white;
   width: 300px;
   height: 250px;
-  font-size: 17px;
+  font-size: 19px;
   display: flex;
   text-align: center;
   flex-direction: column;
 }
 
 .divpictoPvaleur {
-  margin-top: 55px;
+  margin-top: 5px;
   justify-content: flex-end;
 }
 
