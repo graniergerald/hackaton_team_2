@@ -316,3 +316,64 @@ a:hover {
     padding-top: 30px;
   }
 }
+
+/*** CSS DE PAGES (NOS PRODUCTEURS) ****/
+
+
+/**** menu et logo ****/
+.nav-bar {
+  display: flex;
+  text-align: center;
+}
+
+.nav-bar {
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-family: "quicksand";
+}
+
+.nav-bar a {
+  display: inline;
+  margin:-10vh ;
+  margin-left:15vw;
+}
+
+.hackaton img {
+  display: flex;
+  padding:20px;
+}
+
+/**** Image d'accueil après menu ****/
+.control-dot img {
+  display: flex;
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+/**** picto la vie des produits ET LE H1 SUR L'IMAGE ****/
+
+.main-toggle-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around; 
+}
+
+.control h1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: -35vh;
+    margin-top: 25vh;
+}
+
+.control>h1 {
+  color: #f5f3f0;
+  font-size: 60px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-family: 'Abril Fatface';
+}
