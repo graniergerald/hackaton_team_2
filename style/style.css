@@ -23,6 +23,7 @@ body {
   color: black;
 }
 
+/**************/
 /****FOOTER****/
 /**************/
 
@@ -42,6 +43,7 @@ footer {
   padding: 5px 0px;
   margin: 5px 0px;
   color: white;
+  font-size: 20px;
 }
 
 .footer {
@@ -329,4 +331,111 @@ h1 {
     margin-left: -70px;
     margin-right: -70px;
   }
+}
+
+/*******PAGE NOUS CONTACTER**********/
+/************************************/
+
+.Pagenouscontacter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 25px;
+}
+
+.Pagenouscontacter h2 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 35px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.FormContact {
+  display: flex;
+  justify-content: center;
+  background-color: var(--bckg-color-element);
+  border-radius: 30px;
+  width: 700px;
+  padding-top: 40px;
+  margin-bottom: 150px;
+}
+
+.FormContact p textarea {
+  margin: 0px;
+  width: 500px;
+  height: 150px;
+  resize: none;
+}
+
+Form label {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+
+input,
+textarea {
+  background-color: var(--bckg-color-page);
+  border-color: transparent;
+  padding: 10px;
+}
+
+.btn-fin-de-page {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 30px;
+  margin-bottom: 20px;
+  transition: ease-out 0.3s;
+  border-radius: 25px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.btn-fin-de-page:hover {
+  cursor: pointer;
+  background-color: var(--dark-color);
+  color: var(--bckg-color-page);
+}
+
+@media screen and (max-width: 770px) {
+  .Pagenouscontacter {
+    font-size: 17px;
+  }
+
+  .FormContact {
+    width: 450px;
+  }
+
+  .FormContact p textarea {
+    width: 330px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Pagenouscontacter {
+    font-size: 15px;
+  }
+
+  .FormContact {
+    width: 350px;
+  }
+
+  .FormContact p textarea {
+    width: 290px;
+  }
+
+  @media screen and (max-width: 390px) {
+    .Pagenouscontacter {
+      font-size: 12px;
+    }
+  
+    .FormContact {
+      width: 330px;
+    }
+  
+    .FormContact p textarea {
+      width: 230px;
+    }
 }
