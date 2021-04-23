@@ -1,4 +1,4 @@
-<-- CODE JS -->
+
 
 // Variables pour le slider
 

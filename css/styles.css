@@ -162,7 +162,7 @@ body {
   color: #f5f3f0;
 }
 
-/**** RESPONSIVE MENU BURGER ****/
+
 
 
 /**** SLIDER  ****/
@@ -207,7 +207,7 @@ body {
     position:absolute;
 }
 
-/*** ELEPMENTS DU SLIDER ****/
+/*** ELEMENTS DU SLIDER ****/
 .caption {
   display: flex;
   justify-content: center;
@@ -285,7 +285,7 @@ a:hover {
 /*** H1 SOUS LE MENU ACCUEIL ****/
 
 .paragraph h1 {
-  text-align: center;
+  text-align: center !important;
 }
 
 /**** DIV AVEC LES PICTOS ACHEMINEMENT... ****/
@@ -297,33 +297,29 @@ a:hover {
 .picto {
   display: flex;
   justify-content: center;
-  background-color: #ffffff;
 }
 
 .centre {
   display: flex;
   justify-content: space-around;
-  height: 50vh;
 }
 
 .logo > img {
   margin-top: 30vh;
   margin-bottom: 3vh;
-  width:170px;
-  height:170px;
+  width:140px;
+  height:140px;
 }
 
 .logo > h2 {
   font-size: 20px;
-  margin-bottom: 3vh;
-  color: #474548;
+  margin-bottom: 1vh;
   font-weight: bold;
 }
 
 .logo > p {
   font-size: 15px;
-  font-weight:300;
-  color:#3e4651;
+  font-weight:bold;
   margin:2vw;
   letter-spacing:2px;
 }
@@ -333,15 +329,9 @@ a:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 20vw;
-  height: 25vh;
-  padding-top: 30px;
+  width: 19vw;
+  height: 20vh;
   padding:40px;
-  border-radius: 100px;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  -ms-border-radius: 100px;
-  -o-border-radius: 100px;
 }
 
 
@@ -393,232 +383,6 @@ a:hover {
   height: 20vh;
   padding: 40px;
 }
-
-/**** RESPONSIVE TABLETTE ENTRE 763PX ET 1338PX ****/
-@media (min-width: 768px) and (max-width: 1388px) {
-  .header-menu {
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-  }
-  .header-menu {
-    width: 100%;
-    float: none;
-  }
-
-  .section-picto {
-    float: none;
-  }
-
-  .logo > p {
-    font-size: 15px;
-    font-weight: 100;
-    color: #3e4651;
-    margin: 2vw;
-    letter-spacing: 2px;
-  }
-
-  .logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 20.1vw;
-    height: 34.2vh;
-    padding-top: 30px;
-  }
-}
-
-@media screen and (min-width: 375px) {
-  .main-toggle-img   {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-around; 
-  }
-
-  .control h1 {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    margin-bottom: -35vh;
-    margin-top: 25vh;
-}
-
-.control>h1 {
-  color: #f5f3f0;
-  font-size: 60px;
-  font-weight: bold;
-  letter-spacing: 2px;
-  font-family: 'Abril Fatface';
-}
- .indian img {
-  display:flex;
-  display:inline-block;
-  justify-content: center;
-}
-
-.producteurs { 
-  font-weight: bold;
-}
-
-.uncunt {
-  text-align: center;
-  font-weight: bold;
-}
-
-.primer { 
-  text-align: center;
-  font-weight: bold;
-} 
-
-.header-logo {
-  display: flex;
-  justify-content: center;
-}
-
-.picto {
-  display: flex;
-  justify-content: center;
-  background-color: #ffffff;
-}
-
-.centre {
-  display: flex;
-  justify-content: space-around;
-  height: 50vh;
-}
-
-.logo > img {
-  margin-top: 30vh;
-  margin-bottom: 3vh;
-  width:170px;
-  height:170px;
-}
-
-.logo > h2 {
-  font-size: 20px;
-  margin-bottom: 3vh;
-  color: #474548;
-  font-weight: bold;
-}
-
-.logo > p {
-  font-size: 15px;
-  font-weight:300;
-  color:#3e4651;
-  margin:2vw;
-  letter-spacing:2px;
-}
-
-.logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 20vw;
-  height: 25vh;
-  padding-top: 30px;
-  padding:40px;
-  border-radius: 100px;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  -ms-border-radius: 100px;
-  -o-border-radius: 100px;
-}
-
-.circle {
-  display: flex;
-  justify-content: center;
-  background-color: #ffffff;
-}
-
-.centred {
-  display: flex;
-  justify-content: space-around;
-
-}
-
-.login>img {
-  position:relative;
-  top:10px;
-  margin-top: 30vh;
-  margin-bottom: 3vh;
-  width:100px;
-  height:100px;
-  
-}
-
-.login>h2 {
-  font-size: 20px;
-  margin-bottom: 3vh;
-  color: #474548;
-  font-weight: bold;
-}
-
-.login>p {
-  font-size: 15px;
-  font-weight: 100;
-  color: #3e4651;
-  margin: 2vw;
-  letter-spacing: 2px;
-  padding-top: 40px;
-}
-
-.login {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 20vw;
-  height: 20vh;
-  padding: 40px;
-}
-.main-toggle-img   {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-around; 
-  }
-
-  .control h1 {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    margin-bottom: -35vh;
-    margin-top: 25vh;
-}
-
-.control>h1 {
-  color: #f5f3f0;
-  font-size: 60px;
-  font-weight: bold;
-  letter-spacing: 2px;
-  font-family: 'Abril Fatface';
-}
- .indian img {
-  display:flex;
-  display:inline-block;
-  justify-content: center;
-}
-
-.producteurs { 
-  font-weight: bold;
-}
-
-.uncunt {
-  text-align: center;
-  font-weight: bold;
-}
-
-.primer { 
-  text-align: center;
-  font-weight: bold;
-  } 
-}
-
-/*** CSS DE PAGES (NOS PRODUCTEURS) ****/
-
 
 /**** menu et logo ****/
 .nav-bar {
@@ -678,8 +442,7 @@ a:hover {
   font-family: 'Abril Fatface';
 }
 
-/**** h1 LA FERME TY COZ ****/
-
-.laferme .oklaoma h1 { 
-  text-align: center;
+.timing h1 {
+  padding:25vh;
+  text-decoration: underline solid #1c1c1c;
 }

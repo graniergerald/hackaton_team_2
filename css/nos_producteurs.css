@@ -347,10 +347,9 @@ a:hover {
   
 /**** CSS DU LOGO ET DU H1 LA FERME DE TYCOZ ****/
 
-.indian img {
-  display:flex;
-  display:inline-block;
-  justify-content: center;
+.contents-perf>h1>img {
+  display:inline-block !important;
+  justify-content: center !important;
 }
 
 .producteurs { 
@@ -415,6 +414,13 @@ a:hover {
     padding-top: 30px;
   }
 }
+
+@media (max-width: 400px) {
+  p {
+    background: black;
+    color: yellow;
+  }
+}
 /**** FIN RESPONSIVE ****/ 
 h1 { 
   font-size: clamp(30px, 5vw, 50px);
@@ -452,23 +458,20 @@ h1 {
   font-size: 30px;
   font-weight: bold;
   font-family:"Quicksand", sans-serif ;
-   }
+  }
 
-   
-   .content {
-     display: flex;
-     justify-content:center;
-   }
 
-   .comment { 
-     display: flex;
-     justify-content:center;
-   }
+.content {
+    display: flex;
+    justify-content:center;
+  }
 
-   p {
-     text-align: center;
-   }
+.comment { 
+    display: flex;
+    justify-content:center;
+  }
 
-   .producteurs {
-     margin: 40px;
-   }
+
+.producteurs {
+    margin: 40px;
+  }
