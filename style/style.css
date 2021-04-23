@@ -311,10 +311,10 @@ article {
 .contentDirIcon{
   position: absolute;
   display: flex;
-    justify-content: space-around;
-    width: 100%;
-    align-items: flex-end;
-    height: 25%;
+  justify-content: space-around;
+  width: 100%;
+  align-items: flex-end;
+  height: 25%;
 }
 
 .dirIcon{
@@ -349,12 +349,6 @@ article legend{
     flex-wrap: wrap;
   }
 
-  /* .column {
-    min-width: 200p;
-    display: flex;
-    margin-bottom: 20px;
-
-  }x */
 }
 
 
@@ -381,7 +375,5 @@ article legend{
   .column {
     width: 25%;
   }
-
-
 
 }

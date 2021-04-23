@@ -26,9 +26,6 @@ body{
   }
 
 
-
-
-
 /**===== Header =====**/
 header{
     width: 100%;
@@ -133,102 +130,6 @@ ul.ingredient-list{
     background-image: url("./img/Recettes/Quiche\ Saumon\ Brocolis.jpg");
     width: 50vw;
 }
-
-
-/* .recipe-card {
-  width: 90%;
-  display: block;
-  overflow: hidden;
-  transition: max-width 3s;
-  font-family: 'Oswald', sans-serif;
-  border: solid 1px #8b8b8b;
-  border-radius: 10px;
-  margin: 3em auto;
-  background-color: #ebebeb;
-  box-shadow: -3px 3px 10px rgba(30, 30, 30, .4);
-  text-shadow: 0px 1px 3px rgba(255, 255, 255, .5);
-  color: #190F00;
-}
-
-.recipe-pic-frame {
-  width: 100%;
-  height: 20em !important;
-  border-bottom: solid 1px #e6e5e3;
-  position: relative;
-  cursor: pointer;
-}
-
-.slider-box {
-  width: 300%;
-  height: 20em;
-  min-height: 20em;
-  left: 0%;
-  position: absolute;
-  transition: left 1s;
-}
-
-.recipe-pic {
-  width: 33.3333333333%;
-  height: 20em;
-  min-height: 200px;
-  margin: 0;
-  padding: 0;
-  border: none;
-  background-size: cover;
-  background-position: center center;
-  display: block;
-  float: left;
-}
-
-.pic3 {
-  background-image: url("/images/Quiche.jpg");
-}
-
-.pic2 {
-  background-image: url("/images/capaccio.jpg");
-}
-
-.pic1 {
-  background-image: url("./img/Photos_produits/Cresson.jpg");
-}
-
-.recipe-card h2 {
-  background-color: rgba(255, 205, 205, .3);
-  margin: 0;
-  padding: 1em .2em;
-  box-sizing: contents-box;
-  display: block;
-  border-bottom: solid 1px rgba(205, 90, 0, 1);
-}
-
-.recipe-card h3 {
-  padding: .1em .2em;
-  ;
-  box-sizing: border-box;
-}
-
-.recipe-card p {
-  margin-left: 1em;
-  margin-right: 1em;
-  font-size: .9em;
-}
-
-.recipe-card section {
-  border-bottom: solid 1px rgba(205, 90, 0, 1);
-  border-top: solid 1px rgba(255, 190, 50, .7);
-  margin: 0;
-  padding: 0;
-}
-
-.recipe-card section:last-child {
-  border-bottom: none;
-}
-
-.ingredient-list {
-  line-height: 1.5em;
-  list-style: circle;
-  margin-right: 1em;
-} */
 
 hr.line{
     border: 2px solid black;
