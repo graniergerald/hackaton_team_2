@@ -136,8 +136,6 @@ footer {
 
 @media screen and (max-width: 950px) {
   .pmentions-légales {
-    padding-right: 110px;
-    padding-left: 110px;
     padding-bottom: 50px;
   }
 }
@@ -153,8 +151,6 @@ footer {
 
 @media screen and (max-width: 500px) {
   .pmentions-légales {
-    padding-right: 50px;
-    padding-left: 50px;
   }
 }
 
